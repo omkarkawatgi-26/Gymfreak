@@ -1,0 +1,41 @@
+.footer-container {
+    position: relative;
+}
+
+.footer-container>hr {
+    border: 1px solid var(--lightgray);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.social-links>a>img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.logo>img {
+    width: 10rem;
+}
+
+.blur-f1 {
+    bottom: 0rem;
+    right: 36%;
+    background: red;
+    filter: blur(200px);
+    width: 26rem;
+    height: 12rem;
+}
